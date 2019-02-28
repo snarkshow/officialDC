@@ -31,12 +31,18 @@ a{
     text-decoration: none;
 }
 
+img{
+    max-width: 100%;
+}
+
+.flex{
+    display: flex;
+}
+
 /* HEADER CSS */
 
 .logo{
-    margin: 0;
-    /* width: 60%; */
-    text-align: right;
+    margin: 0% 0% 2%; 
 }
 
 .title{
@@ -44,17 +50,74 @@ a{
     font-size: 5rem;
     font-style: italic;
     margin: 3% 0% 0%;
-    
     text-transform: uppercase;
     word-wrap: wrap;
 }
 
 .subtitle{
+    display: inline-block;
     font-size: 1.5rem;
     font-weight: lighter;
     letter-spacing: 1px;
     margin: 0;
+    padding: 1%;
     text-transform: uppercase;
 }
 
+/* INTRO TEXT CSS*/
 
+.textContainer{
+    border: 0.5px solid lightgray;
+    /* background-color: rgba(172, 255, 255, 0.8); */
+    margin: auto;
+    padding: 10px 25px;
+    width: 70%;
+}
+
+.textContainer h2{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.intro{
+    font-weight: bold;
+}
+
+.bullet{
+    font-size: 2rem;
+}
+
+/* BRAND GALLERY CSS */
+
+.gallery{
+    justify-content: center;
+    padding: 3%;
+    width: 80%;
+}
+
+
+/* .col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.span_1_of_3 {
+	width: 32.26%; 
+} */
+
+
+
+/* Portrait tablet and small desktops */
+@media (max-width: 1280px) {
+    .wrapper{
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    .textContainer{
+        width: 100%;
+    }
+}

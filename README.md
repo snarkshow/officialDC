@@ -11,3 +11,7 @@ Logos for brands
 2019-02-27
 
 Logos for brands, converted into svgs
+
+2019-02-28
+
+Writing copy 

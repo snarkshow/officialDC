@@ -35,14 +35,10 @@ img{
     max-width: 100%;
 }
 
-.flex{
-    display: flex;
-}
-
 /* HEADER CSS */
 
 .logo{
-    margin: 0% 0% 2%; 
+    margin: 0% 0% 3%; 
 }
 
 .title{
@@ -68,6 +64,7 @@ img{
 
 .textContainer{
     border: 0.5px solid lightgray;
+    display: flex;
     /* background-color: rgba(172, 255, 255, 0.8); */
     margin: auto;
     padding: 10px 25px;
@@ -92,10 +89,70 @@ img{
 /* BRAND GALLERY CSS */
 
 .gallery{
-    justify-content: center;
-    padding: 3%;
-    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 7% auto;
+    width: 70%;
 }
+
+.brand-logo{
+    padding: 2%;
+}
+/* 
+INDIVIDUAL BRAND CSS ADJUSTMENTS */
+
+#happysocks{
+    display: flex;
+    align-items: center;
+}
+
+#kipling{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#markk{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#poler{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#suicoke{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#akid{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+/* .box1{
+    background-color: red;
+    height: 300px;
+    width: 200px;
+}
+
+.box2{
+    background-color: blue;
+    height: 300px;
+    width: 200px;
+}
+
+.box3{
+    background-color: green;
+    height: 300px;
+    width: 200px;
+} */
 
 
 /* .col {

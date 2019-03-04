@@ -15,3 +15,7 @@ Logos for brands, converted into svgs
 2019-02-28
 
 Writing copy 
+
+2019-03-01
+
+Brand gallery layout

@@ -38,7 +38,7 @@ img{
 /* HEADER CSS */
 
 .logo{
-    margin: 0% 0% 3%; 
+    margin: 0% 0% 6%; 
 }
 
 .title{
@@ -58,6 +58,16 @@ img{
     margin: 0;
     padding: 1%;
     text-transform: uppercase;
+}
+
+.contact{
+    position: fixed;
+    top: 1%; right: 1%;
+}
+
+.contact a{
+    color: black;
+    font-size: 3rem;
 }
 
 /* INTRO TEXT CSS*/

@@ -66,7 +66,18 @@ img{
 }
 
 .contact a{
+    display: inline;
     color: black;
+    font-size: 3rem;
+}
+
+.contact2{
+    text-align: right;
+}
+
+.contact2 a{
+    color: black;
+    display: none;
     font-size: 3rem;
 }
 
@@ -109,72 +120,50 @@ img{
 .brand-logo{
     padding: 2%;
 }
+
+.brand-logo img:hover{
+    opacity: 0.7;
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
 /* 
 INDIVIDUAL BRAND CSS ADJUSTMENTS */
 
-#happysocks{
+#happysocks, #happysocks a{
     display: flex;
     align-items: center;
 }
 
-#kipling{
+#kipling, #kipling a {
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
-#markk{
+#markk, #markk a {
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
-#poler{
+#poler, #poler a {
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
-#suicoke{
+#suicoke, #suicoke a{
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
-#akid{
+#akid, #akid a{
     display: flex;
     justify-content: center;
     align-content: center;
 }
-/* .box1{
-    background-color: red;
-    height: 300px;
-    width: 200px;
-}
-
-.box2{
-    background-color: blue;
-    height: 300px;
-    width: 200px;
-}
-
-.box3{
-    background-color: green;
-    height: 300px;
-    width: 200px;
-} */
-
-
-/* .col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
-}
-
-.span_1_of_3 {
-	width: 32.26%; 
-} */
-
 
 
 /* Portrait tablet and small desktops */
@@ -186,5 +175,20 @@ INDIVIDUAL BRAND CSS ADJUSTMENTS */
 
     .textContainer{
         width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .title{
+        font-size: 4rem;
+    }
+
+    .contact{
+        display: none;
+    }
+
+    .contact2 a{
+        display: inline;
     }
 }

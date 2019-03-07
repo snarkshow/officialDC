@@ -38,7 +38,12 @@ img{
 /* HEADER CSS */
 
 .logo{
-    margin: 0% 0% 6%; 
+    /* display: flex;
+    flex-direction: column; */
+    margin: auto;
+    margin-bottom: 4%; 
+    text-align: left;
+    width: 75%;
 }
 
 .title{
@@ -85,27 +90,29 @@ img{
 
 .textContainer{
     border: 0.5px solid lightgray;
-    display: flex;
+    /* display: flex; */
     /* background-color: rgba(172, 255, 255, 0.8); */
     margin: auto;
-    padding: 10px 25px;
-    width: 70%;
+    padding: 15px 40px;
+    width: 75%;
 }
 
 .textContainer h2{
     font-size: 1.3rem;
     font-weight: lighter;
     letter-spacing: 1px;
-    line-height: 1.5;
+    line-height: 1.7;
+}
+
+.tab{
+    text-indent: 3%;
 }
 
 .intro{
     font-weight: bold;
 }
 
-.bullet{
-    font-size: 2rem;
-}
+
 
 /* BRAND GALLERY CSS */
 
@@ -113,8 +120,8 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 7% auto;
-    width: 70%;
+    margin: 4% auto;
+    width: 75%;
 }
 
 .brand-logo{

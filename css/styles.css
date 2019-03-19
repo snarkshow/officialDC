@@ -89,11 +89,11 @@ img{
 /* INTRO TEXT CSS*/
 
 .textContainer{
-    border: 0.5px solid lightgray;
+    /* border: 0.5px solid lightgray; */
     /* display: flex; */
     /* background-color: rgba(172, 255, 255, 0.8); */
     margin: auto;
-    padding: 15px 40px;
+    padding: 15px;
     width: 75%;
 }
 
@@ -104,9 +104,9 @@ img{
     line-height: 1.7;
 }
 
-.tab{
+/* .tab{
     text-indent: 3%;
-}
+} */
 
 .intro{
     font-weight: bold;
@@ -137,8 +137,27 @@ img{
 /* 
 INDIVIDUAL BRAND CSS ADJUSTMENTS */
 
+#akid, #akid a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#chailie, #chailie a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 #happysocks, #happysocks a{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hennessy, #hennessy a{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -148,13 +167,31 @@ INDIVIDUAL BRAND CSS ADJUSTMENTS */
     align-content: center;
 }
 
+#louisvuitton, #louisvuitton a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px 0;
+}
+
 #markk, #markk a {
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
+#native, #native a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 #poler, #poler a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#slamjam, #slamjam a{
     display: flex;
     justify-content: center;
     align-content: center;
@@ -166,10 +203,17 @@ INDIVIDUAL BRAND CSS ADJUSTMENTS */
     align-content: center;
 }
 
-#akid, #akid a{
+#theyskens, #theyksens a {
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+#veja, #veja a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
 }
 
 

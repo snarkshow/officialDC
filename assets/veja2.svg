@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="200.7"
+   width="200"
+   viewBox="0 0 200 200.69917"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="veja2.svg"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Veja (brand)</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="837"
+     inkscape:window-height="804"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="0.96840379"
+     inkscape:cx="120"
+     inkscape:cy="121.85"
+     inkscape:window-x="587"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg10" />
+  <title
+     id="title2">Veja (brand)</title>
+  <polygon
+     points="174.85,180.96 171.15,188.23 178.58,188.23 "
+     id="polygon6"
+     transform="matrix(0.95001148,0,0,0.95001148,-9.735865,-17.042876)" />
+  <path
+     d="M 121.16064,106.82369 H 79.804428 L 44.743458,52.831175 h 32.176241 l 23.872051,37.69016 24.43268,-42.62197 c 6.36177,-11.10144 15.54729,-10.31912 19.31097,-10.31912 h 16.39933 l -39.77489,69.242665 z m 31.69796,56.95409 -2.42229,-4.75866 h -11.94989 l -2.45949,4.75866 h -6.80046 l 15.21707,-29.62986 15.25668,29.62986 h -6.83767 z m -29.01358,-10.88072 c 0,2.38596 -0.17182,4.37959 -1.31763,6.51283 -1.52986,2.7151 -4.29345,4.50204 -7.31675,4.96769 0,0 -1.50058,0.27377 -3.35113,0 -5.22704,-0.77843 -8.37465,-4.84446 -8.54412,-10.03289 h 6.0371 c 0.0744,1.8275 0.76018,3.22835 2.50702,3.99741 0,0 1.74287,0.592 3.35113,0 2.38189,-0.9352 2.51652,-2.93584 2.51652,-5.14474 v -17.76794 h 6.11866 v 17.46997 z M 98.07806,141.37676 H 83.503972 v 5.2711 h 9.18947 v 5.95047 h -9.18947 v 5.23054 H 98.07806 v 5.94969 H 77.42253 V 135.4185 h 20.65553 v 5.95281 z M 56.446283,165.09594 41.149228,135.42552 h 6.837668 l 8.490269,16.43573 8.432464,-16.43573 h 6.80045 z M 181.54354,6.2921449 H 20.53566 L 6.012248,20.814585 V 181.84911 l 14.523412,14.52166 h 161.00788 l 14.51471,-14.52322 V 20.813025 L 181.54354,6.2905849 Z"
+     id="path8"
+     inkscape:connector-curvature="0"
+     style="stroke-width:0.78589475" />
+</svg>

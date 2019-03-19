@@ -19,3 +19,7 @@ Writing copy
 2019-03-01
 
 Brand gallery layout
+
+2019-03-07
+
+Domain name hooked up, submitted for feedback

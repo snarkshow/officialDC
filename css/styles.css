@@ -225,7 +225,7 @@ html {
 }
 
 body {
-	font-family: "Raleway", sans-serif;
+	font-family: "Quicksand", sans-serif;
 }
 
 .wrapper {
@@ -245,6 +245,11 @@ img {
 	max-width: 100%;
 }
 
+p {
+	font-size: 20px;
+	line-height: 1.75;
+}
+
 /* HEADER CSS */
 
 .logo {
@@ -259,10 +264,11 @@ img {
 .title {
 	display: inline-block;
 	font-size: 5rem;
-	font-style: italic;
 	margin: 3% 0% 0%;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	word-wrap: wrap;
+	font-family: "Questrial", sans-serif;
+	font-weight: lighter;
 }
 
 .subtitle {
@@ -271,7 +277,7 @@ img {
 	font-weight: lighter;
 	letter-spacing: 1px;
 	margin: 0;
-	padding: 1%;
+	padding: 0.5% 0.5%;
 	text-transform: uppercase;
 }
 
@@ -304,9 +310,10 @@ img {
 	/* display: flex; */
 	/* background-color: rgba(172, 255, 255, 0.8); */
 	margin: auto;
-	padding: 15px;
+	padding: 15px 0.5%;
 	text-align: justify;
 	width: 75%;
+	display: flex;
 }
 
 .textContainer h2 {
@@ -316,12 +323,13 @@ img {
 	line-height: 1.7;
 }
 
-/* .tab{
-    text-indent: 3%;
-} */
-
 .intro {
 	font-weight: bold;
+	width: 50%;
+}
+
+.introText {
+	width: 50%;
 }
 
 /* BRAND GALLERY CSS */
@@ -477,6 +485,21 @@ INDIVIDUAL BRAND CSS ADJUSTMENTS */
 
 	.textContainer {
 		width: 80%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.intro {
+		font-weight: bold;
+		width: 100%;
+	}
+
+	.introText {
+		width: 100%;
+	}
+
+	.title {
+		font-size: 3rem;
 	}
 }
 
